@@ -1,0 +1,102 @@
+<style>
+
+
+* {
+     margin: 10;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   
+   
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 1.6;
+     background-color:#A9BA9D;
+   }
+   
+   nav {
+     background-color: #;
+     padding: 10px 0;
+     border-bottom: 3px solid #555;
+   }
+   
+   nav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+   }
+   
+   nav ul li {
+     transition: transform 0.2s ease;
+   }
+   
+   nav ul li a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+     transition: color 0.3s ease, transform 0.2s ease;
+   }
+   
+   nav ul li a:hover {
+     color: #ffcc00;
+     transform: scale(1.1);
+   }
+   
+   /* Bagian Konten */
+   .container {
+     padding: 20px;
+     max-width: 1200px;
+     margin: 20px auto;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   
+  
+   section {
+     margin: 20px 0;
+   }
+   
+   section h1 {
+     font-size: 26px;
+     color: #333;
+     margin-bottom: 10px;
+   }
+   
+   section p {
+     font-size: 16px;
+     color: #555;
+     line-height: 1.8;
+   }
+   
+   
+   @media (max-width: 768px) {
+     nav ul {
+       flex-direction: column;
+       gap: 10px;
+       text-align: center;
+     }
+   
+     nav ul li {
+       transform: none;
+     }
+   }
+   
+     body{
+      font-family: Arial,sans-serif
+     }
+     nav{
+      background-color:333;
+      padding:10px0;
+      text align:center:
+     }
+     nav ul{
+      list-style:;
+     margin:0; 
+     padding:0;
+     justify-content:center;
+     }
+     nav ul li{
+      color:fcc00;
+     }
+     </style>
